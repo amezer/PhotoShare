@@ -1,6 +1,6 @@
 .photo-card {
   background: white;
-  border: 1px solid #dbdbdb;
+  border: none;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -27,13 +27,13 @@
 }
 
 .photo-card-avatar-placeholder {
-  background: #dbdbdb;
+  background: #C9ADA7;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 14px;
   font-weight: 600;
-  color: #8e8e8e;
+  color: #9A8C98;
 }
 
 .photo-card-username {
@@ -67,7 +67,7 @@
   background: none;
   border: none;
   font-size: 20px;
-  color: #262626;
+  color: #22223B;
   padding: 0 4px;
   line-height: 1;
   cursor: pointer;
@@ -78,7 +78,7 @@
   right: 0;
   top: 28px;
   background: white;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #C9ADA7;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -99,7 +99,7 @@
 }
 
 .photo-card-menu button:hover {
-  background: #fafafa;
+  background: #F2E9E4;
 }
 
 .photo-card-menu button.danger {
@@ -131,7 +131,7 @@
 .like-count {
   font-size: 14px;
   font-weight: 600;
-  color: #262626;
+  color: #22223B;
 }
 
 /* Caption edit */

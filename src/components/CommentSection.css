@@ -1,6 +1,6 @@
 .comment-section {
   padding: 8px 16px 12px;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #e8ddd9;
 }
 
 .comments-list {
@@ -18,7 +18,7 @@
 .comment-reply {
   margin-left: 20px;
   padding-left: 12px;
-  border-left: 2px solid #efefef;
+  border-left: 2px solid #e8ddd9;
 }
 
 .comment-user {
@@ -27,27 +27,27 @@
 }
 
 .comment-body {
-  color: #262626;
+  color: #22223B;
 }
 
 .comment-reply-btn {
   background: none;
   border: none;
   font-size: 11px;
-  color: #8e8e8e;
+  color: #9A8C98;
   padding: 0 0 0 8px;
   font-weight: 600;
 }
 
 .comment-reply-btn:hover {
-  color: #262626;
+  color: #22223B;
 }
 
 .comment-form {
   display: flex;
   align-items: center;
   gap: 10px;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #e8ddd9;
   padding-top: 10px;
 }
 
@@ -67,12 +67,12 @@
 .comment-post-btn {
   background: none;
   border: none;
-  color: #0095f6;
+  color: #4A4E69;
   font-size: 14px;
   font-weight: 600;
   padding: 0;
 }
 
 .comment-post-btn:disabled {
-  color: #b2dffc;
+  color: #9A8C98;
 }

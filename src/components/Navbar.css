@@ -4,8 +4,8 @@
   left: 0;
   right: 0;
   height: 56px;
-  background: white;
-  border-bottom: 1px solid #dbdbdb;
+  background: #F2E9E4;
+  border-bottom: 1px solid #C9ADA7;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,24 +28,24 @@
 .navbar-link {
   font-size: 14px;
   font-weight: 600;
-  color: #262626;
+  color: #22223B;
 }
 
 .navbar-link:hover {
-  color: #0095f6;
+  color: #4A4E69;
 }
 
 .navbar-logout {
   background: none;
   border: none;
   font-size: 14px;
-  color: #8e8e8e;
+  color: #9A8C98;
   padding: 0;
   font-weight: 400;
 }
 
 .navbar-logout:hover {
-  color: #262626;
+  color: #22223B;
 }
 
 @media (max-width: 600px) {
