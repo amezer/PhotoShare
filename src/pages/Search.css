@@ -1,0 +1,92 @@
+.search-page {
+  padding-top: 24px;
+}
+
+.search-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.search-form input {
+  flex: 1;
+}
+
+.search-empty {
+  text-align: center;
+  color: #8e8e8e;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #efefef;
+}
+
+.search-result-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.search-avatar img,
+.search-avatar-placeholder {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.search-avatar-placeholder {
+  background: #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #8e8e8e;
+}
+
+.search-result-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.search-result-username {
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.search-result-bio {
+  font-size: 13px;
+  color: #8e8e8e;
+}
+
+@media (max-width: 600px) {
+  .search-form {
+    gap: 8px;
+  }
+
+  .search-result-bio {
+    display: none;
+  }
+}

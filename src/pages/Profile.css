@@ -1,0 +1,175 @@
+.profile-page {
+  padding-top: 24px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-avatar img,
+.profile-avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-avatar-placeholder {
+  background: #dbdbdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #8e8e8e;
+}
+
+.profile-top-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.profile-username {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.btn-follow {
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-follow:hover {
+  background: #1877f2;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #262626;
+  margin-bottom: 6px;
+}
+
+.profile-bio {
+  font-size: 14px;
+  color: #262626;
+}
+
+/* Avatar edit */
+.avatar-edit-label {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-edit-label img,
+.avatar-edit-label .profile-avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.avatar-edit-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Edit form */
+.profile-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.profile-edit-form input,
+.profile-edit-form textarea {
+  font-size: 14px;
+}
+
+.profile-edit-form textarea {
+  resize: none;
+}
+
+.profile-edit-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+}
+
+@media (max-width: 600px) {
+  .profile-header {
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+
+  .profile-avatar img,
+  .profile-avatar-placeholder,
+  .avatar-edit-label {
+    width: 60px;
+    height: 60px;
+  }
+
+  .avatar-edit-label img,
+  .avatar-edit-label .profile-avatar-placeholder {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profile-avatar-placeholder {
+    font-size: 24px;
+  }
+
+  .profile-username {
+    font-size: 18px;
+  }
+
+  .profile-stats {
+    gap: 12px;
+    font-size: 13px;
+  }
+
+  .profile-grid {
+    gap: 2px;
+  }
+}
